@@ -13,4 +13,4 @@ function getEmails() {
   }
 }
 
-getEmails();
+document.getElementById("newEmail").addEventListener("click", getEmails);
